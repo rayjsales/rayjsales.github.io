@@ -1,0 +1,123 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+.title_head {
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	background-image: url("https://images.unsplash.com/photo-1532292060982-8bfb986808e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80");
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+.navbar-nav {
+	justify-content: flex-end;
+}
+
+.text-sm-center {
+	color: white;
+}
+
+.active {
+	color: rgb(134, 234, 234);
+}
+
+.about_me {
+	padding-bottom: 70px;
+}
+
+.profile {
+	position: absolute;
+	justify-content: center;
+	top: 87%;
+}
+
+.profile2 {
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.logo {
+	display: inline-block;
+	border: 1px solid white;
+}
+
+.quickfacts {
+	background-color: rgb(219, 226, 228);
+}
+
+.projects {
+	background-color: rgb(16, 115, 146);
+}
+
+.resume {
+	background-color: rgb(165, 200, 211);
+}
+
+.about_title {
+	padding-top: 160px;
+}
+
+.btn-primary {
+	background-color: rgb(3, 87, 114);
+	border-color: rgb(3, 87, 114);
+}
+.btn-primary:hover {
+	background-color: rgb(66, 155, 185);
+	border-color: rgb(3, 107, 142);
+}
+
+.nav-tabs {
+	border-bottom: none;
+}
+
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.python {
+	color: #4b8bbe;
+}
+
+.logo-foot {
+	width: 80%;
+}
+.pic-width {
+	width: 60px;
+}
+.pic-width2 {
+	width: 75px;
+}
+.bg-facts {
+	background-color:rgb(145, 181, 198);
+}
+
+.boardGame {
+	height: 200px;
+}
