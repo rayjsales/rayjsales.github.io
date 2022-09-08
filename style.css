@@ -67,7 +67,7 @@ section {
 }
 
 .projects {
-	background-color: rgb(16, 115, 146);
+	background-color: rgb(61, 137, 159);
 }
 
 .resume {
@@ -83,7 +83,7 @@ section {
 	border-color: rgb(3, 87, 114);
 }
 .btn-primary:hover {
-	background-color: rgb(66, 155, 185);
+	background-color: rgb(1, 108, 144);
 	border-color: rgb(3, 107, 142);
 }
 
