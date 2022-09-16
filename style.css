@@ -108,16 +108,23 @@ section {
 .logo-foot {
 	width: 80%;
 }
+
+.bg-facts {
+	background-color:rgb(145, 181, 198);
+}
+
+
+
+/*images on page*/
+.companyImage {
+	width: 220px;
+}
 .pic-width {
 	width: 60px;
 }
 .pic-width2 {
 	width: 75px;
 }
-.bg-facts {
-	background-color:rgb(145, 181, 198);
-}
-
 .boardGame {
 	height: 200px;
 }
