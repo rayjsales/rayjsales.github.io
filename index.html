@@ -88,7 +88,7 @@
         </div>
         <div class="row text-sm-start">
           <div class="row">
-            <div class="container">
+            <div class="container col-lg-7">
               <ul class="text-lg-center list-group list-group-flush h5 pb-4">
                 <li class="list-group-item">
                   Computer Science student graduating in 2024
@@ -283,28 +283,28 @@
               role="tablist"
             >
               <button
-                class="nav-link active fst-italic"
+                class="nav-link active fst-italic px-5"
+                id="nav-home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-exercise"
+                type="button"
+                role="tab"
+                aria-controls="nav-exercise" pb-3
+                aria-selected="true"
+              >
+                Exercise Tracker App
+              </button>
+              <button
+                class="nav-link fst-italic"
                 id="nav-home-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-hasami"
                 type="button"
                 role="tab"
                 aria-controls="nav-hasami"
-                aria-selected="true"
-              >
-                Hasami Shogi Game
-              </button>
-              <button
-                class="nav-link fst-italic px-5"
-                id="nav-profile-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#nav-exercise"
-                type="button"
-                role="tab"
-                aria-controls="nav-exercise" pb-3
                 aria-selected="false"
               >
-                Exercise Tracker App
+                Hasami Shogi Game
               </button>
               <button
                 class="nav-link fst-italic px-5"
@@ -347,7 +347,7 @@
           <div class="tab-content" id="nav-tabContent">
             <!--First Tab-->
             <div
-              class="tab-pane fade show active text-black"
+              class="tab-pane fade text-black"
               id="nav-hasami"
               role="tabpanel"
               aria-labelledby="nav-hasami-tab"
@@ -422,7 +422,7 @@
             </div>
             <!--Second Tab-->
             <div
-              class="tab-pane fade"
+              class="tab-pane show active fade"
               id="nav-exercise"
               role="tabpanel"
               aria-labelledby="nav-exercise-tab"
