@@ -333,6 +333,18 @@
                 Project Management App
               </button>
               <button
+                class="nav-link fst-italic"
+                id="nav-contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-finance"
+                type="button"
+                role="tab"
+                aria-controls="nav-finance"
+                aria-selected="false"
+              >
+                Food Finder App
+              </button>
+              <button
               class="nav-link fst-italic px-5"
               id="nav-home-tab"
               data-bs-toggle="tab"
@@ -356,18 +368,7 @@
               >
                 A Company Site
               </button>
-              <button
-                class="nav-link fst-italic"
-                id="nav-contact-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#nav-finance"
-                type="button"
-                role="tab"
-                aria-controls="nav-finance"
-                aria-selected="false"
-              >
-                Finance Web App
-              </button>
+              
             </div>
           </nav>
 
@@ -424,14 +425,14 @@
                   >
                     <div class="text-center px-2">
                       <img src="images/pm-screen2.png" class="thumbnail" style="width: 250px;" onclick="openModal(this)"/>
-                      <figcaption class="figure-caption fst-italic text-dark pb-3">
+                      <figcaption class="figure-caption fst-italic text-white pb-3">
                         Dashboard - overview of project activities
                       </figcaption>
                     </div>
 
                     <div class="text-center px-2">
                       <img src="images/pm-screen3.png" class="thumbnail" style="width: 250px;" onclick="openModal(this)"/>
-                      <figcaption class="figure-caption fst-italic text-dark">
+                      <figcaption class="figure-caption fst-italic text-white">
                         Discussion board of specific task
                       </figcaption>
                     </div>
@@ -484,7 +485,7 @@
                     <a
                       href="https://github.com/hoorayrj/Exercise-Tracker-App"
                       class="btn btn-primary"
-                      >Github</a
+                      ><i class="bi bi-github"></i> Github</a
                     >
                   </div>
                 </div>
@@ -493,15 +494,15 @@
                     class="d-flex flex-column flex-md-row justify-content-center pt-3 pt-xl-0"
                   >
                     <div class="text-center px-2">
-                      <img src="images/exercise-app1.png" class="boardGame" />
-                      <figcaption class="figure-caption fst-italic text-dark pb-3">
+                      <img src="images/exercise-app1.png" class="boardGame thumbnail" style="width: 250px;" onclick="openModal(this)"/>
+                      <figcaption class="figure-caption fst-italic text-white pb-3">
                         Landing page showing exercises
                       </figcaption>
                     </div>
 
                     <div class="text-center px-2">
-                      <img src="images/exercise-app2.png" class="boardGame" />
-                      <figcaption class="figure-caption fst-italic text-dark">
+                      <img src="images/exercise-app2.png" class="boardGame thumbnail" style="width: 250px;" onclick="openModal(this)" />
+                      <figcaption class="figure-caption fst-italic text-white">
                         Create page
                       </figcaption>
                     </div>
@@ -546,15 +547,15 @@
                     class="d-flex flex-column flex-md-row justify-content-center pt-3 pt-xl-0"
                   >
                     <div class="text-center px-2">
-                      <img src="images/company1.png" class="companyImage" />
-                      <figcaption class="figure-caption fst-italic text-dark pb-3">
+                      <img src="images/company1.png" class="companyImage thumbnail" style="width: 250px;" onclick="openModal(this)" />
+                      <figcaption class="figure-caption fst-italic text-white pb-3">
                         Landing page for company site
                       </figcaption>
                     </div>
 
                     <div class="text-center px-2">
-                      <img src="images/company2.png" class="companyImage" />
-                      <figcaption class="figure-caption fst-italic text-dark">
+                      <img src="images/company2.png" class="companyImage thumbnail" style="width: 250px;" onclick="openModal(this)" />
+                      <figcaption class="figure-caption fst-italic text-white">
                         Different sections of the landing page
                       </figcaption>
                     </div>
@@ -572,8 +573,8 @@
               <!--Project Header-->
               <div class="row pb-4 rounded-top">
                 <div class="col-xl-12 col-sm-12">
-                  <p class="h4 pt-4 text-center text-white">Finance Web App</p>
-                  <p class="text-center text-white">Full stack web application for finance exchanges</p>
+                  <p class="h4 pt-4 text-center text-white">Food Finder Web App</p>
+                  <p class="text-center text-white">App to help users find food in cities</p>
                 </div>
               </div>
               <!--Project Description information-->
@@ -581,22 +582,16 @@
                 <div class="col-xl-7 col-sm-12">
                   <div class="">
                     <p class="text-white">
-                      As part of the CS50 Harvard Class, created a mockup of a finance web
-                      application. This application lets the user register, sign-in,
-                      lookup stocks, buy, and sell. The web app also provides a history of
-                      bought or sold stocks. This app utlizes Python, Flask, and SQLite.
-                      Stock information came from the
-                      <a href="https://iexcloud.io" class="text-black" target="_blank"
-                        >iexcloud.io</a
-                      >
-                      API.
-                    </p>
-                    <div class="badge rounded-pill bg-primary">
-                      <i class="fa fa-python python" aria-hidden="true"></i> Python
-                    </div>
-                    <div class="badge rounded-pill bg-primary">Flask</div>
-                    <div class="badge rounded-pill bg-primary">SQL</div>
-                    <div class="badge rounded-pill bg-primary">API</div>
+                      A food app that helps users find dishes in a specific city. To aid the user finding their desired food,
+                      the app allows users to specify the cuisine they prefer and type of meal. Features filtering and sorting 
+                      food search results. The database with restaurants and dish info was provided by <a href="https://www.kaggle.com">kaggle.com</a>. 
+                      <div class="badge rounded-pill bg-primary">
+                        <i class="fa fa-nodejs" aria-hidden="true"></i> Node.js
+                      </div>
+                      <div class="badge rounded-pill bg-primary">ReactJS</div>
+                      <div class="badge rounded-pill bg-primary">TailwindCSS</div>
+                      <div class="badge rounded-pill bg-primary">SQL</div>
+                    <div class="badge rounded-pill bg-primary">REST APIs</div>
                     <div class="badge rounded-pill bg-primary">
                       Full Stack Development
                     </div>
@@ -604,9 +599,14 @@
 
                   <div class="pt-3">
                     <a
-                      href="https://github.com/hoorayrj/CS50-Finance_App"
+                      href="https://github.com/rayjsales/CS361-Project"
                       class="btn btn-primary"
-                      >Github</a
+                      ><i class="bi bi-github"></i> Github</a
+                    >
+                    <a
+                      href="https://youtu.be/pqXAi60FQUM"
+                      class="btn btn-primary"
+                      ><i class="bi bi-youtube"></i> YouTube</a
                     >
                   </div>
                 </div>
@@ -615,15 +615,15 @@
                     class="d-flex flex-column flex-md-row justify-content-center pt-3 pt-xl-0"
                   >
                     <div class="text-center px-2">
-                      <img src="images/finance-1.png" class="companyImage" />
-                      <figcaption class="figure-caption fst-italic text-dark pb-3">
+                      <img src="images/foodApp1.png" class="companyImage thumbnail" style="width: 250px;" onclick="openModal(this)" />
+                      <figcaption class="figure-caption fst-italic text-white pb-3">
                         Landing page showing exercises
                       </figcaption>
                     </div>
 
                     <div class="text-center px-2">
-                      <img src="images/finance-2.png" class="companyImage" />
-                      <figcaption class="figure-caption fst-italic text-dark">
+                      <img src="images/foodApp2.png" class="companyImage thumbnail" style="width: 250px;" onclick="openModal(this)" />
+                      <figcaption class="figure-caption fst-italic text-white">
                         Create page
                       </figcaption>
                     </div>
